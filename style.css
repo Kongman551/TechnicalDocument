@@ -1,0 +1,145 @@
+#body{
+  font-family: 'Comic Neue', cursive;
+  background-color:silver;
+}
+h2{
+  color: darkorange;
+  font-size: 3em;
+}
+h3{
+  color: darkorange;
+  font-size: 1.5em;
+}
+h4{
+  font-size: 1.5em;
+}
+h5{
+  font-weight:900;
+  font-size: 1.35em;
+  font-style: normal;
+}
+.main-body{
+  text-align: center;
+  max-width: 800px;
+  margin:70px auto 0 auto;
+  background-color:whitesmoke;
+  border-radius: 15px;
+  padding: 5px 20px;
+  box-shadow: 6px 10px 16px 8px;
+}
+.top-nav-container{
+  display:flex;
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  background-color: orange;
+}
+#header-logo{
+  float: left;
+}
+#nav-bar{
+  float: right;
+  text-align: center;
+  padding: 20px 0;
+}
+#nav-bar a{
+  padding:0 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+#nav-bar a:hover{
+  text-shadow:2px 5px 4px black;
+}
+#submit{
+  max-width: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: orange;
+  margin-top: 10px;
+}
+#email{
+  max-width: 300px;
+  border-radius: 2px;
+  padding: 5px 0;
+}
+#header-img{
+  width: 200px;
+  border-radius: 30px;
+  margin:2px 0;
+}
+#features, #shipping{
+  margin: 0 50px;
+}
+#shipping-p{
+  margin-bottom: 50px;
+}
+#video-form{
+  max-width: 600px;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: orange;
+}
+#video{
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 80%;
+}
+.pricing-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+  max-width: 80%;
+  background-color: grey;
+  padding: 25px 0; 
+  border-radius: 20px;
+  border-top: 10px solid darkorange;
+  border-left: 20px solid darkorange;
+  border-top-left-radius: 50px;
+}
+.options{
+  max-width: 60%;
+  background-color: lightgray;
+  border: 2px solid black;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+#silver{
+  background-color: silver;
+}
+#gold{
+  background-color:#FFD700;
+}
+#premium{
+  background-color:seagreen;
+}
+#subscribe{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.5em;
+}
+#email-signup{
+  max-width: 100%;
+  background-color: darkgray;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+@media (max-width: 900px){ 
+  .pricing-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .options{
+    max-width: 80%;
+  }
+}
