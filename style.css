@@ -1,0 +1,84 @@
+body{
+  font-family: 'Roboto Mono', monospace;
+  background: gray;
+}
+#nav-header{
+  font-size: 1.75em;
+  text-shadow: 2px 2px 5px gray;
+
+}
+.navbar {
+  width: 340px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: color rgb(255, 0, 0);
+  overflow-x: hidden;
+  padding: 15px;
+}
+.main {
+  margin-left: 380px;
+  padding: 0px 10px;
+}
+.navbar a {
+  padding: 8px 10px 8px 16px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  background-color:cornflowerblue;
+  color: black;
+  text-align: right;
+  border-radius: 2px;
+  border-right: 6px solid navy;
+  border: 6px outset rgb(123, 161, 231);
+}
+.navbar a:hover {
+  background-color: navy;
+  color: lime;
+  border: 4px solid navy;
+}
+header{
+  font-size: 1.5em;
+  text-shadow: 2px 2px 5px whitesmoke;
+  margin-top: 10px;
+}
+code{
+  background-color:navy;
+  color: lime;
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 36px;
+}
+ul{
+  line-height: 40px;
+}
+section{
+  background-color: cornflowerblue;
+  border-radius: 2px;
+  border: 8px outset rgb(123, 161, 231);
+  padding: 30px;
+  margin-bottom: 15px;
+  
+}
+footer{
+  text-align: center;
+  font-size: .75em;
+}
+@media (max-width: 900px) {
+  .navbar {
+    width: 250px;
+  }
+  .navbar a {
+    font-size: 1em;
+  }
+  .main {
+    margin-left: 290px;
+  }
+  #nav-header{
+    font-size: 1.5em;
+    text-shadow: 2px 2px 5px darkgray;
+  
+  }
+}
